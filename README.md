@@ -32,14 +32,13 @@ Delete Expenses – Option to remove any listed expense.
 Responsive Design – Mobile-friendly layout using Tailwind CSS.
 
 🧮 Database Schema:
-Table Name: expenses
-
-Column	Type	Description
-id	INT (PK)	Auto-increment primary key
-date	DATE	Date of the expense
-category	VARCHAR(100)	Category like food, transport
-description	TEXT	Details of the expense
-amount	DECIMAL(10,2)	Expense amount
+| Column      | Type          | Description                   |
+| ----------- | ------------- | ----------------------------- |
+| id          | INT (PK)      | Auto-increment primary key    |
+| date        | DATE          | Date of the expense           |
+| category    | VARCHAR(100)  | Category like food, transport |
+| description | TEXT          | Details of the expense        |
+| amount      | DECIMAL(10,2) | Expense amount                |
 
 
 
